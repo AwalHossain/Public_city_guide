@@ -1,0 +1,59 @@
+*{
+    box-sizing:border-box;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.main-header{
+    background-color: aqua;
+    padding: 1em 0;
+}
+.card{
+    display: flex;
+}
+.main-footer{
+    background-color: grey;
+    
+    color: white;
+    
+    padding: 2em 0em;
+}
+
+.mid-footer{
+    text-align: center;
+}
+ul h4{
+    
+    color: chartreuse;
+}
+
+.footer-flex {
+  display:flex;
+  justify-content:space-between
+}
+
+.foot-card{
+  }
+
+@media(min-width:769px){
+    .container{
+    width: 80%;
+    max-width: 1150px;
+    }
+
+    .wrap{
+        
+        min-height:calc(100vh - 100px);
+       
+    }
+
+
+}
